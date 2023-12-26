@@ -1,66 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+This is my PHP Project. Sushi Restaurant allows the management of staff, customer and allows customer to order food. Management can manage all information of
+the restaurant including food, dining tables, revenue, ...
+Usage technology:
+- PHP Laravel
+- HTML, CSS, Javascript
+- Database MySQL
+---------------------------------
+- Please install and experience the program for more details about all the functions of the restaurant.
+- You must run php artisan migrate in terminal of project to add database and run php artisan db:seed to import data. After running the program, access serve to go to the Home page.
+- This is the Home Page. You can see the description about the restaurant in here.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/35bf14c0-412b-4cbd-a377-0eef66aed55a)
 
-## About Laravel
+- If you want to use the functions of the restaurant you are forced to log in. If you do not have an account you can create a new customer account.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/74dd97a2-dfb4-40a8-8371-0f3d9a41d81f)
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/1eb36c62-3f2d-47f4-8663-2184068cab3a)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- After login successfully, users can see their information depending on the role of the user.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/6f7f5557-5a2b-4319-87ce-82f17476b833)
 
-## Learning Laravel
+-Customers can booking a table.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/8a9aea59-f14c-45c4-b37f-25117c39f8c7)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- Customers can see the menu of the restaurant and add food into their cart.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/9b897c3f-e3bb-4394-9a62-8eeeaf543466)
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/800ac814-540e-492d-b957-8b8d3718bcbb)
 
-## Laravel Sponsors
+- Then they can purchase their cart.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/2c12d46d-5f6d-482d-b154-5229fe9a975a)
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/66cd1d04-b0bc-4166-bea0-1c1279c20c21)
 
-### Premium Partners
+- If you are admin, you can manage many things like as customers, employees, food, table, restaurant, gift code, ...
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![image](https://github.com/Luangoc0204/phpQLNHSushi/assets/126595354/02b0c79c-6cbf-4d4f-80d4-362e3889c514)
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
